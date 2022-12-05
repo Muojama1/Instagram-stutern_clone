@@ -1,0 +1,312 @@
+*,
+::before,
+::after {
+margin: 0;
+padding: o;
+}
+body {
+    box-sizing: border-box;
+    background: #edecec;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nav-area {
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+}
+.nav-bar {
+    height: 720px;
+    width: 200px;
+    background-color: #fff;
+   position: fixed;
+   z-index: 1;
+    border: 1px solid gray;
+}
+.ig-logo {
+    width: 50%;
+    margin: 30px 20px 40px 35px;
+}
+
+/* NAVBAR ICONS */
+/* ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} */
+.nav-list li {
+    list-style-type: none;
+}
+.nav-list img {
+    width: 12%;
+    margin-top: 23px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    /* line-height: 2; */
+    font-size: 0.8rem;
+}
+.nav-item {
+    margin-left: 20px;
+}
+#more {
+    margin-top: 50px;
+}
+
+.update-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1000px;
+    width: 1000px;
+    background-color: transparent;
+    margin: auto;
+    box-sizing: border-box;
+}
+.updatediv1 {
+    width: 470px;
+    height: 1000px;
+    margin-left: 150px;
+}
+.updatediv2 {
+    width: 400px;
+    height: 500px;
+    margin: 20px 0 20px 20px;
+}
+.stories {
+    width: 470px;
+    height: 120px;
+    background-color: #fff;
+    margin: 20px 0;
+    border: 1px solid gray;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stories img {
+    width: 60%;
+    border-radius: 200px;
+    border: 2px solid gray;
+   margin: 20px 0 0 15px;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+.first-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.second-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.third-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.fourth-update {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+/* FIRST UPDATE STYLING */
+.profile-area {
+    width: 470px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: row;
+}
+.profile-area img {
+    width: 10%;
+    border-radius: 50%;
+    margin-left: 20px;
+    object-fit: contain;
+}
+  .profile-area a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 12px;
+    color: black;
+    margin-left: 220px;
+  }
+  .profile-area p {
+    font-size: 0.8rem;
+    padding: 12px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+.picture-area {
+    width: 470px;
+    height: 587.5px;
+}
+.caption-area {
+    width: 470px;
+    height: 200px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.comment-icons {
+    margin-top: 20px;
+}
+.caption-list {
+    display: inline;
+}
+.caption-area img {
+    width: 5%;
+}
+#caption-list-images {
+    margin-left: 300px;
+    
+}
+.caption-area-likes {
+    margin-top: 20px;
+}
+.caption-area-p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    line-height: 1.3;
+}
+.caption-area a {
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0 0 10px 10px;
+}
+.caption-area-span, .caption-area-date {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.caption-area-date {
+    font-size: 0.7rem;
+    opacity: 0.5;
+}
+.caption-area-comment {
+    opacity: 0.5;
+    padding-top: 10px;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.input input {
+    padding: 20px;
+    border: none;
+}
+.input a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 20px;
+}
+.input img {
+    width: 5%;
+    position: absolute;
+    left: 10px;
+    object-fit: contain;
+}
+
+
+/* RIGHT HAND DIV */
+.my-profile {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 40px 0 0 20px;
+}
+.my-profile a {
+  margin-left: 132px;
+    color: blue;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 12px;
+}
+.my-profile p {
+    font-size: 0.8rem;
+    padding-top: 12px;
+}
+.my-profile img {
+    border-radius: 50%;
+    width: 15%;
+}
+.suggestions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.suggestions h4 {
+   opacity: 0.5;
+   margin-top: 20px;
+   font-size: 0.9rem;
+}
+.suggestions a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.7rem;
+    padding: 20px;
+    font-weight: 600;
+   
+}
+  .my-suggestions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0 0 10px 20px;
+  }
+  .my-suggestions img {
+    width: 10%;
+    border-radius: 50%;
+  }
+  .my-suggestions a {
+    margin-left: 100px;
+    color: blue;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 12px;
+  }
+  .my-suggestions p {
+    font-size: 0.8rem;
+    padding-top: 5px;
+  }
+  /* LINK AREA */
+  .link-area {
+    margin: 30px 0 0 20px;
+  }
+  .link-area a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  }
+  .link-area p {
+    margin-top: 30px;
+  font-weight: 500;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  }
