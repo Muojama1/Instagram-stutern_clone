@@ -96,13 +96,18 @@ figcaption {
   font-size: 0.8rem;
   padding: 5px;
 }
-.first-update {
+ .first-update {
     margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid gray;
     border-radius: 10px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
+ .first-update img {
+    width: 100%;
+    /* border-radius: 50%; */
+    object-fit: contain;
+ }
 .second-update {
     margin-bottom: 20px;
     background-color: #fff;
@@ -110,6 +115,10 @@ figcaption {
     border-radius: 10px;
     box-sizing: border-box;
 }
+ .second-update img {
+    width: 100%;
+    object-fit: contain;
+ }
 .third-update {
     margin-bottom: 20px;
     background-color: #fff;
@@ -117,6 +126,10 @@ figcaption {
     border-radius: 10px;
     box-sizing: border-box;
 }
+ .third-update img {
+    width: 100%;
+    object-fit: contain;
+ }
 .fourth-update {
     margin-bottom: 20px;
     background-color: #fff;
@@ -124,6 +137,10 @@ figcaption {
     border-radius: 10px;
     box-sizing: border-box;
 }
+ .fourth-update img {
+    width: 100%;
+    object-fit: contain;
+ }
 /* FIRST UPDATE STYLING */
 .profile-area {
     width: 470px;
@@ -139,14 +156,14 @@ figcaption {
     margin-left: 20px;
     object-fit: contain;
 }
-  .profile-area a {
+.profile-area a {
     color: blue;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 12px;
     color: black;
-    margin-left: 220px;
+    margin-left: 220px; 
   }
   .profile-area p {
     font-size: 0.8rem;
@@ -156,7 +173,7 @@ figcaption {
   }
 .picture-area {
     width: 470px;
-    height: 587.5px;
+    height: 587.5px; 
 }
 .caption-area {
     width: 470px;
